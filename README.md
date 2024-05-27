@@ -5,7 +5,7 @@ This project is a simple and responsive survey form created using HTML and CSS. 
 
 ## Table of Contents
 - [Overview](#overview)
-- [Hoisted Link](https://nidhishcu.github.io/Survey-Form/)
+- [Hoisted Link](https://nidhishcu.github.io/Survey-Form/){:target="_blank"}
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Setup](#setup)
