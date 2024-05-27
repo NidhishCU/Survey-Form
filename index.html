@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Survey Form</h1>
+        <p>Feel free to answer the questions below based on your experience and opinion. If you are not comfortable answering a particular question, please skip it by answering "No". Every answer is very appreciated. Thank you for your time.</p>
+        <form id="survey-form">
+            <div class="form-left">
+                <div class="form-group">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Your Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="location">Where Do You Live?</label>
+                    <select id="location" name="location" required>
+                        <option value="">Select your location</option>
+                        <option value="Chandigarh">Chandigarh</option>
+                        <option value="New Delhi">New Delhi</option>
+                        <option value="Kolkata">Kolkata</option>
+                        <option value="Ranchi">Ranchi</option>
+                        <option value="Others">Others</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Age:</label>
+                    <div class="radio-group">
+                        <label><input type="radio" name="age" value="15-20" required> 15-20</label>
+                        <label><input type="radio" name="age" value="20-30" required> 20-30</label>
+                        <label><input type="radio" name="age" value="31-40" required> 31-40</label>
+                        <label><input type="radio" name="age" value="41-50" required> 41-50</label>
+                        <label><input type="radio" name="age" value="prefer-not-to-say" required> Prefer not to say</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>How Would You Rate Your Proficiency in Coding?</label>
+                    <div class="radio-group">
+                        <label><input type="radio" name="proficiency" value="beginner" required> Beginner</label>
+                        <label><input type="radio" name="proficiency" value="intermediate" required> Intermediate</label>
+                        <label><input type="radio" name="proficiency" value="advanced" required> Advanced</label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-right">
+                <div class="form-group">
+                    <label>Have You Ever Appeared in Any Coding Contest?</label>
+                    <div class="radio-group">
+                        <label><input type="radio" name="contest" value="yes" required> Yes</label>
+                        <label><input type="radio" name="contest" value="no" required> No</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="passion">Discuss What Drives Your Passion for Coding and Outline Your Aspirations in the Field:</label>
+                    <textarea id="passion" name="passion" rows="4" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="challenges">What Are Some of the Challenges You Face While Coding?</label>
+                    <textarea id="challenges" name="challenges" rows="4" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="data-structures">Please List the Data Structures You Have a Strong Understanding Of:</label>
+                    <textarea id="data-structures" name="data-structures" rows="4" required></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
