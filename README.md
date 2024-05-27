@@ -1,7 +1,7 @@
 # Survey Form
 
 This project is a simple and responsive survey form created using HTML and CSS. The form is designed to collect user feedback with a clean and modern design. 
-![image](https://github.com/NidhishCU/Survey-Form/assets/98959174/8d4f25c9-27b2-4d47-89aa-d8e307174b7c)
+
 
 ## Table of Contents
 - [Overview](#overview)
@@ -33,6 +33,12 @@ The Survey Form is a responsive web page that allows users to provide feedback t
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/your-username/survey-form.git
+
+## Screenshots
+
+![Screenshot 2024-05-27 171458](https://github.com/NidhishCU/Survey-Form/assets/98959174/f90a247a-8524-4b11-91b0-ce6e951ab95b)
+
+
 
 
 
