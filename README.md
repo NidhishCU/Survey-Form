@@ -10,8 +10,6 @@ This project is a simple and responsive survey form created using HTML and CSS. 
 - [Setup](#setup)
 - [Usage](#usage)
 - [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 The Survey Form is a responsive web page that allows users to provide feedback through various input fields. The form is designed to adapt to different screen sizes, ensuring a seamless user experience on both desktop and mobile devices.
